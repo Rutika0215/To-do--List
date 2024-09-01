@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    font-family: cursive;
+    color:#000000;
+    text-align: center;
+    margin-top: 2rem;
+
+ 
+}
+body{
+    
+    /* background: linear-gradient(90deg, #6adaf9 0%, #99ffa3 100%); */
+    background-image: url('flower2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-align: center;
+}
+.main-container{
+        width: 60%;
+        background-color:#FF4191;
+        margin: 3% auto;
+        border-radius: 1rem;
+        height: 70vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+       
+        
+ }
+ .form-container, #list-container{
+        margin: 1rem;
+        width: 90%;
+        border-radius: 1rem;
+        
+ }
+.form-container{
+        background-color: E90074;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;      
+}
+#list-container{
+        background-color: #E90074;
+        height: 60vh;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        overflow-y: auto; 
+        padding: 1rem;
+}
+#list-container p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+input, .enter-button{
+        height: 2rem;
+        border: none;
+        border-radius: 0.5rem;
+}
+input{
+        width: 25rem;
+        margin: 0 1rem;
+        padding: 1rem;
+        
+}
+.enter-button{
+       width: 6rem;
+       background-color:#000000 ;
+       color: white;
+       cursor: pointer;
+}
+.enter-button:hover{
+        background-color: #E90074;
+}
+.list-item{
+        background-color: #8BACAA;
+        color: white;
+        width: auto; 
+        max-width: 100%; 
+        padding: 0.5rem 1rem; 
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        word-break: break-word;   
+}
+.remove-button{
+        border: none;
+        background: none;        
+}
